@@ -1,0 +1,13 @@
+<resources>
+    <array name="menuOptions">
+        <item>Darmstadt</item>
+        <item>Freifunk</item>
+        <item>Leaderboard</item>
+        <item>Report Irregularity</item>
+        <item>About</item>
+    </array>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+    <string name="app_name">Duo Example</string>
+</resources>

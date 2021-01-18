@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeaderboardFragment"
+    android:background="@color/colorBackground">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:text="2nd"
+        android:paddingLeft="80dp"
+        android:textStyle="bold"
+        android:paddingTop="70dp"
+        android:textSize="@dimen/space_2x"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="130dp"
+        android:paddingTop="42dp"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:id="@+id/km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="300 pts"
+        android:paddingLeft="237dp"
+        android:textStyle="bold"
+        android:paddingTop="70dp"
+        android:textSize="@dimen/space_2x"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+
+    </FrameLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorAccentLight"
+        android:id="@+id/main_list"
+        ></ListView>
+<!--        android:text="Spiffy is about strengthening and supporting your own city community;  For example, by being able to report minor grievances (overcrowded rubbish bins, defective traffic lights, ...) directly and easily to the city administration or by making free WiFi networks available.  These 'good deeds' are also rewarded with vouchers from local shops and the like."-->
+<!--    />-->
+</FrameLayout>
