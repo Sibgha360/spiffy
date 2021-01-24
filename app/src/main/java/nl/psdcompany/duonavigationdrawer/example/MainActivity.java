@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements DuoMenuView.OnMen
         handleDrawer();
 
         // Show main fragmentReporting in container
-        goToFragment(new MainFragment(), false);
+        goToFragment(new NewsFragment(), false);
         mMenuAdapter.setViewSelected(0, true);
         setTitle(mTitles.get(0));
     }

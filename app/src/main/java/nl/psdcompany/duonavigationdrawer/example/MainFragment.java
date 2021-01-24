@@ -22,6 +22,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -72,6 +75,12 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
 
 
         locationMangaer = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
+
+
+        MobileAds.initialize(getActivity(), "ca-app-pub-3940256099942544~3347511713");
+        AdView adView = (AdView)view.findViewById(R.id.adView);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
 
         return view;
     }

@@ -4,11 +4,12 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "nl.psdcompany.duonavigationdrawer.example"
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -88,4 +89,5 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.1.1'
 
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+    implementation 'com.google.android.gms:play-services-ads:17.2.1'
 }

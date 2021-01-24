@@ -8,7 +8,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme.NoActionBar"
+        >
 
         <!--
             The API key for Google Maps-based APIs is defined as a string resource.
@@ -38,6 +39,13 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCo5phCTqX4oTmZlkpnvHRwWrm81WSDQGY" />
+
+
+                <!-- TODO: Replace with your real AdMob app ID -->
+                <meta-data
+                    android:name="com.google.android.gms.ads.APPLICATION_ID"
+                    android:value="ca-app-pub-3940256099942544~3347511713"/>
+
     </application>
     <permission
         android:name="com.example.mapdemo.permission.MAPS_RECEIVE"
