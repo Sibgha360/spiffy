@@ -112,19 +112,19 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
         {
             LatLngBounds.Builder builder = new LatLngBounds.Builder();
 
-            LatLng coordinates =  new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude());
-            MarkerOptions marker_in_sydney = new MarkerOptions().position(coordinates).title("Car");
+            LatLng coordinates =  new LatLng(49.8728203d,8.6515366d);
+            MarkerOptions marker_in_sydney = new MarkerOptions().position(coordinates).title("Free Wifi 6");
             marker = map.addMarker(marker_in_sydney);
-            LatLng l1 = new LatLng(50.1d, 8d);
-            marker1 = map.addMarker(new MarkerOptions().position(l1).title("Car"));
-            LatLng l2 = new LatLng(50.2d, 8.5d);
-            marker2 = map.addMarker(new MarkerOptions().position(l2).title("Car"));
-            LatLng l3 = new LatLng(50.5d, 8.8d);
-            marker3 = map.addMarker(new MarkerOptions().position(l3).title("Car"));
-            LatLng l4 = new LatLng(50.4d, 8.7d);
-            marker4 = map.addMarker(new MarkerOptions().position(l4).title("Car"));
-            LatLng l5 = new LatLng(50.3d, 8.1d);
-            marker5 = map.addMarker(new MarkerOptions().position(l5).title("Car"));
+            LatLng l1 = new LatLng(49.8823088d,8.57791d);
+            marker1 = map.addMarker(new MarkerOptions().position(l1).title("Free Wifi 1"));
+            LatLng l2 = new LatLng(49.8839127,8.6033159);
+            marker2 = map.addMarker(new MarkerOptions().position(l2).title("Free Wifi 2"));
+            LatLng l3 = new LatLng(49.8728203,8.6345744);
+            marker3 = map.addMarker(new MarkerOptions().position(l3).title("Free Wifi 3"));
+            LatLng l4 = new LatLng(49.858231,8.6603933);
+            marker4 = map.addMarker(new MarkerOptions().position(l4).title("Free Wifi 4"));
+            LatLng l5 = new LatLng(49.856231,8.6683933);
+            marker5 = map.addMarker(new MarkerOptions().position(l5).title("Free Wifi 5"));
 
             builder.include(l1);
             builder.include(l2);
